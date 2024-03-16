@@ -5,5 +5,75 @@
 }
 
 .BakeryItem {
-  
+
+}
+
+.itemImage {
+    width: 80%;
+}
+
+.oneItem {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+    .title {
+        font-size: 22px;
+        font-weight: 400;
+        height: 24px;
+    }
+
+    .desp {
+        font-size: 18px;
+        text-align: center;
+        width: 80%;
+        height: 40px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    button {
+        background-color: #f8f9fa;
+        border: 2px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-size: 20px;
+        height: 60px;
+        padding: 0 22px;
+        text-align: center;
+    }
+
+    button:hover {
+        border-color: #dadce0;
+        box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+        color: #202124;
+    }
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.itemsInCart {
+    text-align: center;
+    font-size: 22px;
+}
+
+.total {
+    text-align: center;
+    font-size: 24px;
 }
